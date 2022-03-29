@@ -1,17 +1,8 @@
-// FIXME: Esto debería restar dos números pero estoy muy pendejo y no se hacerlo. :( ayuda por favor
-function resta(a, b) {
-    const c = a ----- b;
-    return c;
-  }
 
-  function mostrarMensaje() {
 
-  // TODO: Parsear los valores a números.
+    var n1 = parseInt(prompt('Introducir el número1.'));
+    var n2 = parseInt(prompt('Introducir el número 2'));
 
-    const a = prompt('Introduce el número 1.');
-    const b = prompt('Introduce el número 2.');
-
-    const res = alert(resta(a, b));
-  }
-
-  mostrarMensaje();
+    var c = n1-n2;
+    alert(c);
+  
